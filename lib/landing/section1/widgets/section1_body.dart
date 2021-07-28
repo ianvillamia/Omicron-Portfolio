@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:omicron/landing/widgets/custompaint.dart';
-import 'package:omicron/landing/widgets/line.dart';
-import 'package:omicron/styles/images.dart';
 
-class Section1 extends StatelessWidget {
-  const Section1({Key? key}) : super(key: key);
+class Section1Body extends StatelessWidget {
+  const Section1Body({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

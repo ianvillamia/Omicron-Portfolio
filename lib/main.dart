@@ -36,16 +36,3 @@ class _MyAppState extends State<MyApp> {
         });
   }
 }
-// MultiProvider(
-//         providers: [
-//           ChangeNotifierProvider(create: (context) => CustomTheme()),
-//         ],
-//         child: MaterialApp(
-//           title: 'Omicron',
-//           debugShowCheckedModeBanner: false,
-//           theme: CustomTheme.lightTheme,
-//           darkTheme: CustomTheme.darkTheme,
-//           themeMode: currentTheme.currentTheme,
-//           home: LandingPage(),
-//         ),
-//       ),

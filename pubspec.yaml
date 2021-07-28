@@ -30,7 +30,8 @@ flutter:
     - assets/omicron_light.png
     - assets/omicron.riv
     - assets/omicron1.riv
-    - assets/BG.png
+    - assets/section1.png
+    - assets/section2.png
     
   fonts:
     - family: NeueHaasGroteskBold
