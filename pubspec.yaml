@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   provider: ^5.0.0
+  rive: ^0.7.23
   shared_preferences: ^2.0.6
 
 dev_dependencies:
@@ -21,8 +22,34 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
   assets:
     - assets/
     - assets/logo/omicron_light.png
     - assets/logo/omicron_dark.png
     - assets/omicron_light.png
+    - assets/omicron.riv
+    - assets/omicron1.riv
+    - assets/BG.png
+    
+  fonts:
+    - family: NeueHaasGroteskBold
+      fonts:
+        - asset: assets/fonts/NeueHaasGroteskBold.ttf
+        - asset: assets/fonts/NeueHaasGroteskMedium.ttf
+        - asset: assets/fonts/NeueHaasGroteskRegular.ttf
+    - family: Kamerik105
+      fonts:
+        - asset: assets/fonts/Kamerik105-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/Kamerik105-BoldOblique.ttf
+        - asset: assets/fonts/Kamerik105-Book.ttf
+          weight: 400
+        - asset: assets/fonts/Kamerik105-BookOblique.ttf
+        - asset: assets/fonts/Kamerik105-Heavy.ttf
+          weight: 900
+        - asset: assets/fonts/Kamerik105-HeavyOblique.ttf
+        - asset: assets/fonts/Kamerik105-Light.ttf
+          weight: 900
+        - asset: assets/fonts/Kamerik105-LightOblique.ttf
+  

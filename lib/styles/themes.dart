@@ -17,9 +17,12 @@ class CustomTheme with ChangeNotifier {
         accentColor: Colors.red,
         backgroundColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
+        fontFamily: 'Kamerik105',
         textTheme: TextTheme(
-          headline1: TextStyle(color: Colors.black),
-          headline2: TextStyle(color: Colors.black),
+          headline1:
+              TextStyle(color: Colors.black, fontWeight: FontWeight.w900),
+          headline2:
+              TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
           headline3: TextStyle(color: Colors.black),
           bodyText1: TextStyle(color: Colors.black),
           bodyText2: TextStyle(color: Colors.black),
@@ -31,6 +34,7 @@ class CustomTheme with ChangeNotifier {
         primaryColor: Colors.white,
         backgroundColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
+        fontFamily: 'Kamerik105',
         textTheme: TextTheme(
           headline1: TextStyle(color: Colors.white),
           headline2: TextStyle(color: Colors.white),
